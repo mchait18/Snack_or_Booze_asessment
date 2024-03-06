@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="font-weight-bold text-center card-title"
+        >
+          Add a New Snack or Drink
+        </h5>
+        <ul
+          class="list-group"
+        >
+          <form>
+            <li
+              class="list-group-item"
+            >
+              <fieldset>
+                <div>
+                  <input
+                    id="snack"
+                    name="type"
+                    type="radio"
+                    value="snacks"
+                  />
+                  <label
+                    for="snack"
+                  >
+                    Snack
+                  </label>
+                </div>
+                <div>
+                  <input
+                    id="drink"
+                    name="type"
+                    type="radio"
+                    value="drinks"
+                  />
+                  <label
+                    for="drink"
+                  >
+                    Drink
+                  </label>
+                </div>
+              </fieldset>
+            </li>
+            <li
+              class="list-group-item"
+            >
+              <label
+                for="name"
+              >
+                Name: 
+              </label>
+              <input
+                id="name"
+                name="name"
+                style="width: 310px;"
+                type="text"
+                value=""
+              />
+            </li>
+            <li
+              class="list-group-item"
+            >
+              <label
+                for="name"
+              >
+                Description: 
+              </label>
+              <input
+                id="description"
+                name="description"
+                style="width: 265px;"
+                type="text"
+                value=""
+              />
+            </li>
+            <li
+              class="list-group-item"
+            >
+              <label
+                for="val"
+              >
+                Recipe: 
+              </label>
+              <textarea
+                cols="38"
+                id="recipe"
+                name="recipe"
+              />
+            </li>
+            <li
+              class="list-group-item"
+            >
+              <label
+                for="val"
+              >
+                Serve: 
+              </label>
+              <input
+                id="serve"
+                name="serve"
+                style="width: 310px;"
+                type="text"
+                value=""
+              />
+            </li>
+            <button>
+              Add Item
+            </button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
